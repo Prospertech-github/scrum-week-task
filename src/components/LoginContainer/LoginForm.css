@@ -1,0 +1,95 @@
+/*********************/
+/*** CONTAINER STYLING ***/
+/*********************/
+.grid-container{
+  width: 100%;
+  display: flex;
+}
+
+/*********************/
+/*** LEFT-GRID STYLING ***/
+/*********************/
+.left-grid{
+  width: 38%;
+  height: 100vh;
+}
+.left-grid-img{
+  width: 100%;
+  height: 100%;
+  filter: brightness(90%);
+}
+
+/*********************/
+/*** RIGHT-GRID STYLING ***/
+/*********************/
+.right-grid{
+  width: 62%;
+  height: 100vh;
+  background: url(../../assets/images/Right.png);
+  padding: 6.4rem 9.6rem ;
+
+}
+.login-form-heading{
+  margin-bottom: 4.8rem;
+}
+.right-heading--title{
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 1.8;
+  color: #00B4DB;
+  margin-bottom: 1rem;
+}
+.right-heading--description{
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.login-form{
+  width: 100%;
+  margin-top: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.login-input-fields{
+  position: relative;
+  width: 100%;
+}
+.login-input{
+  display: inline-block;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 1rem 3.2rem;
+  border: 1px solid #ced4da;
+  outline: none;
+  border-radius: 9px;
+}
+.login-input:focus,
+.login-input:hover{
+  border: 2px solid #4dcbe6;
+}
+.login-form-icons{
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  width: 1.4rem;
+  text-align: center;
+}
+.login-bottom-text{
+  margin-top: 10rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.login-bottom-text a{
+  text-decoration: none;
+  color: #00B4DB;
+}
+.login-submit-input{
+  color: #fff;
+  background: linear-gradient(to bottom right, #5ED0E9, #41B7D1);
+  border: none;
+  font-weight: 100;
+  font-size: 1.3rem;
+  letter-spacing: .03rem;
+  margin-top: 1.5rem;
+}
